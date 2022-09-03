@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+header {
+    text-align: center;
+}
+
+header .intro {
+    margin-top: 45px;
+    font-size: 2.25em;
+    font-weight: bold;
+    
+}
+
+.sub-intro {
+    margin-top: -12px;
+    
+}
+
+.sub-intro span {
+    color: white;
+    background-color: black;
+    padding: 3px 8px;
+    
+}
+
+.grid-row {
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 40px;
+}
+
+.grid-row1 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 40px;
+}
+.overall-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px 30px;
+    margin: 50px 25px 20px;
+    
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2), 0 5px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.title-heading {
+    margin: 0 20px 0 15px;
+
+}
+
+.title-heading h3 {
+    font-weight: 500;
+    
+}
+
+.main-txt {
+    font-size: 1.25em;
+    margin-top: -3px;
+}
+
+.sub-txt {
+    font-size: 1em;
+}
+
+p span {
+    color: gray;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 40px 10px 15px;
+    font-weight: 700;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: 1px solid rgb(190, 189, 189);
+    cursor: pointer;
+}
+
+.entity-design {
+    font-size: 0.75em;
+}
+
+.buttons .entity-design1 {
+    color: white;
+    background-color: black;
+    padding: 2px 8px;
+    font-weight: 300;
+}
+
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2); 
+    min-height: 29rem;
+    background-color: white;
+}
+
+.second-column .title-heading h3 {
+    font-size: 1.5em;
+}
+
+.second-column .title-heading .sub-txt {
+    margin-top: -5px;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2), 0 5px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.second-row .entity-design1 {
+    border-radius: 15px;
+    font-weight: 300;
+}
+
+
+.second-row-column {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+    min-height: 23rem;  
+    background-color: white;
+}
+
+.title-txt {
+    font-size: 22px;
+    padding: 20px 15px;
+    background-color: rgb(233, 233, 233);
+}
+
+.img-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 15px;
+    transition: background-color 0.15s;
+}
+
+.img-description:hover {
+    background-color: rgb(194, 193, 193);
+}
+
+.img-description:nth-child(4),
+.img-description:nth-child(3),
+.img-description:nth-child(2),
+.img-description:nth-child(1) {
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.img-description img {
+    width: 50px;
+}
+
+.container-description {
+    line-height: 10px;
+    margin-left: 10px;
+}
+
+p:nth-child(1) {
+    font-size: 18px;
+}
+
+
+.third-row-column {
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+    min-height: 11.3rem;
+    background-color: white;
+
+}
+
+.top-txt {
+    font-size: 1.5em;
+    padding: 15px 15px;
+    background-color: rgb(233, 233, 233);
+}
+
+.bottom-txt {
+    padding: 15px;
+    
+}
+
+.bottom-txt p {
+    font-size: 1em;
+    line-height: 5px;
+}
+
+.different-txt:nth-child(1) {
+    color: white;
+    background-color: black;
+}
+
+.different-txt {
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 2px;
+    background-color: rgb(247, 247, 247);
+    margin: 4px;
+}
+
+footer {
+    height: 175px;
+    background-color: rgb(105, 105, 105);
+    padding: 30px 15px;
+}
+
+.buttons-container {
+    display: flex;
+}
+
+.buttons-container button {
+    padding: 12px 24px;
+}
+
+.first-btn {
+    background-color: rgb(75, 74, 74);
+    color: rgb(177, 174, 174);
+    border: none;
+    margin-right: 4px;
+    cursor: not-allowed;
+    transition: all 0.15s;
+}
+
+.first-btn:hover {
+    color: black;
+    background-color: rgb(128, 128, 128);
+}
+
+.second-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.second-btn:hover {
+    color: black;
+    background-color: rgb(206, 206, 206);
+}
+
+.buttons-container button span{
+    font-size: 0.75em;
+    margin-left: 4px;
+
+}
+
+.created {
+    margin-top: 30px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .overall-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
